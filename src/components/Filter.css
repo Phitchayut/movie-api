@@ -10,7 +10,20 @@
     cursor: pointer;
     font-weight: bold;
 }
+
 button:active {
     background: rgb(65, 98, 168);
     color: white;
+}
+@media only screen and (max-width: 520px) {
+    .filter-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .filter-container button{
+        margin-right: 1rem;
+       
+    }
 }
